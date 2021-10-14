@@ -1,0 +1,159 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* header */
+
+.header {
+    background-color: #1F2937;
+    width: 100%;
+    padding: 0 7rem;
+}
+.header h1 {
+    color: #F9FAF8;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.header p, .header li {
+    font-size: 1.125rem;
+    color: #E5E7EB;
+}
+.header p {
+    margin: 2rem 0;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+.header .link {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+.header .wrapper {
+    display: flex;
+    flex: auto;
+    margin: 3rem auto 0 auto;
+    width: 80%;
+}
+.hero-sec1 {
+    width: 50%;
+}
+.hero-sec2 {
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    width: 50%;
+}
+.hero-sec2 img {
+    height: 100%;
+    width: 100%;
+}
+.btn {
+    background-color: #3882F6;
+    padding: .625rem 1.5rem;
+    border-radius: 1rem;
+    border-style: none;
+    margin-bottom: 2rem;
+}
+
+/* hero section */
+
+.hero-container {
+     display: flex;
+     /* flex-grow: 1;  */
+    text-align: center;
+    justify-content: center;
+    gap:20px;
+    }
+
+ .hero-container img {
+   height: 100%;
+   width: 100%;
+   /* border:blue 5px solid; */
+  
+} 
+
+.hero-container div {
+  height: 300px;
+   width: 300px;
+}
+.hero-section h1{
+    padding-bottom: 2rem;
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #1F2937;
+}
+.hero-section {
+    padding: 1rem 0;
+    text-align: center;
+    margin: 1rem 0 3.5rem ;
+    
+}
+
+/* quote */
+.quote {
+    padding: 2rem 0;
+    background-color: #E5E7EB;
+    width: 100%;
+    text-align: center;
+}
+
+.quote p {
+
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2.25rem;
+    font-style: italic;
+}
+.quote h4 {
+    width: 60%;
+    margin: 0 auto;
+    text-align: end;
+    padding: 1.3rem 0;
+}
+
+/* call-to-action */
+.call-to-action {
+    background-color: #3882F6;
+    width: 60%;
+    margin: 2rem auto;
+    color: #E5E7EB;
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+.btn2 {
+    background: inherit;
+    border: ivory 2px solid;
+    padding: .7rem 1.5rem;
+    border-radius: 8px;
+    margin:  0 1rem;
+    color: blue;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #1F2937;
+    padding: 2rem 0;
+}
